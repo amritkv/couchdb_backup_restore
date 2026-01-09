@@ -19,7 +19,7 @@
 
 ### At destination CouchDB instance
 
-3. Import data to destination couchdb instance
+4. Import data to destination couchdb instance
 ```
 curl -u <couchdb_username>:<couchdb_password> -X POST "http://localhost:5984/db_name/_bulk_docs" -H "Content-Type: application/json" --data-binary @new_output_design_document.json
 ```
